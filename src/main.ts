@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue';
 
-const a = 1234
+const a = 12344
 
 createApp(App).mount('#app')
