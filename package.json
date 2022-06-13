@@ -29,8 +29,9 @@
     "vue-tsc": "^0.34.7"
   },
   "lint-staged": {
-    "0": "npm run lint",
-    "1": "git add",
-    "*.js": "eslint --cache --fix"
+    "*.{js,jsx,vue,ts,tsx}": [
+      "npm run lint",
+      "git add"
+    ]
   }
 }
