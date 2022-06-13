@@ -1,6 +1,4 @@
 import { createApp } from 'vue'
-import App from './App.vue';
-
-const a = 12344
+import App from './App.vue'
 
 createApp(App).mount('#app')
