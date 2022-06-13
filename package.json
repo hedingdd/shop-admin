@@ -28,7 +28,8 @@
     "vite": "^2.9.9",
     "vue-tsc": "^0.34.7"
   },
-  "lint-staged": {
-    "*.js": "eslint --cache --fix"
-  }
+  "lint-staged": [
+    "npm run lint",
+    "git add"
+  ]
 }
